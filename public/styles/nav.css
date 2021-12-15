@@ -1,5 +1,6 @@
 .nav-bar {
   display: flex;
+  z-index: 2;
   height: 120px;
   background-color: #4056A1;
   color: #FFFFFF;

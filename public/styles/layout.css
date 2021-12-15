@@ -19,8 +19,18 @@ body {
   background-color: #f4f1ec;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
+  position: relative
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+ main {
+   display: flex;
+  position: relative;
+  top: 520px;
+  width: 90%;
+  margin: auto;
+  background-color: #f4f1ec;
+ }
