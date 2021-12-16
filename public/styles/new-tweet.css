@@ -31,9 +31,14 @@ button {
   margin-top: 10px;
 }
 
-output {
+span.counter {
   font-family: 'Bungee', sans-serif;
   color: #545149;
   border-top: 10px;
   float: right;
 } 
+
+/* red font when words count exceeds 140 char */
+.red {
+  color: red;
+}  
