@@ -28,7 +28,9 @@ body {
 
  main {
    display: flex;
-  position: relative;
+   justify-content: center;
+   
+  position:absolute;
   top: 520px;
   width: 90%;
   margin: auto;
