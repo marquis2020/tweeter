@@ -16,21 +16,23 @@
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
 
     <!-- App CSS -->
-    <link rel="stylesheet" href="/public/styles/layout.css"/>
-    <link rel="stylesheet" href="/public/styles/nav.css"/>
-    <link rel="stylesheet" href="/public/styles/header.css"/>
-    <link rel="stylesheet" href="/public/styles/new-tweet.css"/>
-    <link rel="stylesheet" href="/public/styles/public-tweets.css">
+    <link rel="stylesheet" href="/styles/layout.css"/>
+    <link rel="stylesheet" href="/styles/nav.css"/>
+    <link rel="stylesheet" href="/styles/header.css"/>
+    <link rel="stylesheet" href="/styles/new-tweet.css"/>
+    <link rel="stylesheet" href="/styles/public-tweets.css">
     
-
-
-
+   
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- App JS -->
-    <script type="text/javascript" src="/scripts/client.js"></script>
+    <script type="text/javascript" src="/scripts/client.js" async defer></script>
+    <script type="text/javascript" src="/scripts/composer-char-counter.js" async defer></script>
+     <!-- timeago -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/timeago.js/4.0.2/timeago.min.js" async defer ></script> 
+
 
    
   </head>
@@ -44,7 +46,7 @@
     </nav>
     <header class="users-veiw">
       <div>
-          <img class="user-image" src="/public/images/profile-hex.png"> 
+          <img class="user-image" src="/images/profile-hex.png"> 
       </div>
       <br>
       <div>
@@ -66,9 +68,9 @@
         </form>
       </section>
 
-        <section>
-          <article class="tweet-container">
-            <header class="tweet--top">
+        <section class="tweet-container">
+          <!-- <article class="tweet-cage"> -->
+            <!-- <header class="tweet--top">
               <div class="wrapper"> 
                 <div class="profile"><img class="newton-pic" src="/public/images/73hZDYK.png"></div>
                 <div class="username">Newton</div>
@@ -86,12 +88,12 @@
                 <i class="fa fa-heart"></i>
                 <i class="fa fa-retweet"></i>
               </div>
-            </footer>
-          </article>
+            </footer> -->
+          <!-- </article> -->
         </section>
      
 
     </main>
-    <script type="text/javascript" src="/public/scripts/composer-char-counter.js" async defer></script>
+   
   </body>
 </html>

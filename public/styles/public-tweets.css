@@ -1,6 +1,6 @@
 
 /* article */
-.tweet-container {
+.tweet-cage {
   border: solid 5px black;
   margin: auto;
   margin-top: 20px;
@@ -9,7 +9,7 @@
 }
 
 /* article */
-.tweet-container:hover {
+.tweet-cage:hover {
   
   box-shadow: 5px 10px;
   color: black;
